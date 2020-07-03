@@ -3,5 +3,6 @@
 ##  Build Setup
 `
 cd macbook\spiders  
+
 scrapy runspider mac_spider.py  
 `
