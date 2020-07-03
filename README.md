@@ -5,7 +5,7 @@
 ### Clone project
 git clone 
 ### Move to root spider dir
-cd macbook\spiders    
+cd macbook\macbook\spiders    
 ### Run spider via scrapy cli
 scrapy runspider mac_spider.py  
 ```

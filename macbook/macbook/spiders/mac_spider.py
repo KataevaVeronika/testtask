@@ -10,9 +10,9 @@ def parse_page(response):
     filename_html = title + '.html'
     img_ext = "." + image.split(".")[-1]
     filename_img = title + img_ext
-    with open(parent + filename_html.replace('"', ''), 'wb') as f:
+    with open(parent + filename_html.replace('"', '').replace('/', ''), 'wb') as f:
         f.write(response.body)
-    with open(parent + filename_img, 'wb') as f:
+    with open(parent + filename_img.replace('"', '').replace('/', ''), 'wb') as f:
         image = requests.get(image)
         f.write(image.content)
 
