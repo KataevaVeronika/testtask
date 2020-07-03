@@ -1,7 +1,7 @@
 # Test Task for Xogito
 
-BUILD SETUP
+##Build Setup
 `
-cd macbook\spiders
-scrapy runspider mac_spider.py
+cd macbook\spiders  
+scrapy runspider mac_spider.py  
 `
