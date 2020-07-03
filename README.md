@@ -1,9 +1,11 @@
 # Test Task for Xogito
 
 ##  Build Setup
-`
-cd macbook\spiders 
-`
-`
+```bash
+### Clone project
+git clone 
+### Move to root spider dir
+cd macbook\spiders    
+### Run spider via scrapy cli
 scrapy runspider mac_spider.py  
-`
+```
